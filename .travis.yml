@@ -21,6 +21,7 @@ script:
 - python ./manage.py test
 deploy:
   provider: heroku
-  app: "pruebajavruimun"
+  app: pruebajavruimun
   strategy: git
-  
+  api_key:
+    secure: FYSvaGzSjzc2AtEZuk+aFXxFN7/ACFUzbJ3f8hwKae5PEV7Rtk83WMkM9hrXnvugwRqSzRO/t4r6gNV/7O6cBKdhzgGvAJNM78plQbl8LD2dAoUQu1R8/Pz9WEf8P/UAZz6xJ3bsCCZgXsTWaxuoDaUmZxb7TvUtGVdcIU8UmPP0EHusRWhHTyafMCLcTSS4VRFsOAYg3M6HwoHqMER0GeqDTTMisCaFib3wLfzK7YIkAsaPSH4K9OGuaXY6gTwJYYXWGCWdZKIeW+oPxdz8CMZGJ3MbXULIAHLL6oPvLrnwjKp7s2vF+SWthHOrj/Hjral78SdcxIDTmG9yc8OrLmnfiMifnntktZDAzvrUfrfB+Ih0vQoQA9aYnJoODVL0qqio13uSiONotL+v10bI8H5OlGBHMEbpVVRrdgT6VwS0ZPSukHFYg9MiFDgG7wnqPiFyL7kxwmynFbiEGRrs/IYauz6y9uL9mSnjqDgDj/N4radlDK/DAXjJjbrk7DOvx6Oweo3iZz2j2Ak8J/x4jZRe2W9LVnBc2iukRX+M6ODmrGlkIKiwVKpBLBz4wtp2J/awc/EohXjNPlRdZHtCHpUbbhzNpeLCyrr23XcYMgCZMPIFvALHepTton8wz7ey/8AB1BLmPRrFv+ijmFBv3DohaTBfTzjoYHI8cowuSaY=

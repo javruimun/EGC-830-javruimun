@@ -68,18 +68,18 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://pruebajavruimun.herokuapp.com'
+BASEURL = 'https://prueba1javruimun.herokuapp.com'
 
 APIS = {
-    	'authentication': 'https://pruebajavruimun.herokuapp.com', 
-    	'base': 'https://pruebajavruimun.herokuapp.com',
-    	'booth': 'https://pruebajavruimun.herokuapp.com',
-    	'census': 'https://pruebajavruimun.herokuapp.com',
-    	'mixnet': 'https://pruebajavruimun.herokuapp.com',
-   	'postproc': 'https://pruebajavruimun.herokuapp.com',
-    	'store': 'https://pruebajavruimun.herokuapp.com',
-    	'visualizer': 'https://pruebajavruimun.herokuapp.com',
-    	'voting': 'https://pruebajavruimun.herokuapp.com',
+    	'authentication': 'https://prueba1javruimun.herokuapp.com', 
+    	'base': 'https://prueba1javruimun.herokuapp.com',
+    	'booth': 'https://prueba1javruimun.herokuapp.com',
+    	'census': 'https://prueba1javruimun.herokuapp.com',
+    	'mixnet': 'https://prueba1javruimun.herokuapp.com',
+   	'postproc': 'https://prueba1javruimun.herokuapp.com',
+    	'store': 'https://prueba1javruimun.herokuapp.com',
+    	'visualizer': 'https://prueba1javruimun.herokuapp.com',
+    	'voting': 'https://prueba1javruimun.herokuapp.com',
 }
 
 MIDDLEWARE = [
